@@ -6,9 +6,20 @@
 //
 
 #include <iostream>
+#include <string>
+
+using namespace std;
+
+struct Employee {
+    string surname;
+    int birthYear;
+    string position;
+    double salary;
+    string education;
+};
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+  
+    
     return 0;
 }
