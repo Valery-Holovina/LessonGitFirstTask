@@ -20,6 +20,15 @@ struct Employee {
 
 int main(int argc, const char * argv[]) {
   
+    const int SIZE = 5;
+    Employee employees[SIZE] = {
+        {"Ivanenko", 1958, "Engineer", 25000, "Master's"},
+        {"Petrenko", 1970, "Manager", 20000, "Bachelor's"},
+        {"Shevchenko", 1962, "Technician", 18000, "Associate's"},
+        {"Bondarenko", 1985, "Developer", 30000, "Master's"},
+        {"Kovalenko", 1955, "Accountant", 22000, "Bachelor's"}
+    };
+    
     
     return 0;
 }
