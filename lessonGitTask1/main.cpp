@@ -44,5 +44,8 @@ int main(int argc, const char * argv[]) {
                  << "-------------------------\n";
         }
     }
+    
+    cout << "Total employees older than 60: " << count << endl;
+    
     return 0;
 }
