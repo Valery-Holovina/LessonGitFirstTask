@@ -29,6 +29,20 @@ int main(int argc, const char * argv[]) {
         {"Kovalenko", 1955, "Accountant", 22000, "Bachelor's"}
     };
     
-    
+    int currentYear = 2024;
+    int count = 0;
+
+    cout << "Employees older than 60 years:\n";
+    for (int i = 0; i < SIZE; i++) {
+        if (currentYear - employees[i].birthYear > 60) {
+            count++;
+            cout << "Surname: " << employees[i].surname << "\n"
+                 << "Birth Year: " << employees[i].birthYear << "\n"
+                 << "Position: " << employees[i].position << "\n"
+                 << "Salary: " << employees[i].salary << "\n"
+                 << "Education: " << employees[i].education << "\n"
+                 << "-------------------------\n";
+        }
+    }
     return 0;
 }
